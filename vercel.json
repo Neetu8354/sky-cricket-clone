@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "skyexchfast.live" }],
+      "destination": "https://www.skyexchfast.live/$1",
+      "permanent": true
+    }
+  ]
+}
