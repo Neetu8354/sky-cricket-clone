@@ -8,7 +8,7 @@ export const Footer = () => (
       <div>
         <div className="flex items-center gap-2 mb-4">
           <img src={logo} alt="Skyexchfast - Skyexchfast Login online cricket and casino platform" className="h-10 w-10" width={40} height={40} />
-          <span className="text-xl font-extrabold text-gradient-gold">SKYEXCHID</span>
+          <span className="text-xl font-extrabold text-gradient-gold">SKYEXCHFAST</span>
         </div>
         <p className="text-sm text-muted-foreground">Skyexchfast (Skyexchfast Login) — India's most trusted online cricket & casino platform. Play live cricket betting in ₹, win big with fast withdrawal & 24x7 support.</p>
       </div>
