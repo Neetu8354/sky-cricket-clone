@@ -4,15 +4,11 @@ import andar from "@/assets/sport-andarbahar.jpg";
 import teen from "@/assets/sport-teenpatti.jpg";
 import aviator from "@/assets/sport-aviator.jpg";
 import slots from "@/assets/sport-slots.jpg";
-import { WhatsAppButton } from "./WhatsAppButton";
 
 type Game = { img: string; title: string; subtitle: string; tag?: string };
 
 const Card = ({ g }: { g: Game }) => (
-  <a
-    href="https://wa.link/reddyanna_"
-    target="_blank"
-    rel="noopener noreferrer"
+  <div
     className="group relative rounded-2xl overflow-hidden border border-border bg-gradient-card shadow-lg hover:shadow-gold hover:border-primary/60 transition-all duration-300 hover:-translate-y-1"
   >
     <div className="aspect-square overflow-hidden">
@@ -27,7 +23,7 @@ const Card = ({ g }: { g: Game }) => (
       <h3 className="font-bold text-base md:text-lg">{g.title}</h3>
       <p className="text-xs text-muted-foreground">{g.subtitle}</p>
     </div>
-  </a>
+  </div>
 );
 
 const Section = ({ id, eyebrow, title, items }: { id: string; eyebrow: string; title: string; items: Game[] }) => (
@@ -40,9 +36,6 @@ const Section = ({ id, eyebrow, title, items }: { id: string; eyebrow: string; t
             <span className="text-gradient-gold">{title}</span>
           </h2>
         </div>
-        <WhatsAppButton variant="outline" className="hidden sm:inline-flex border-primary/60 text-primary hover:bg-primary/10">
-          Play Now
-        </WhatsAppButton>
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
