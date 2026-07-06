@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
-import { WHATSAPP_URL } from "@/lib/site";
 import { BLOG_POSTS } from "@/data/blogPosts";
 
 export const Footer = () => (
@@ -9,7 +8,7 @@ export const Footer = () => (
       <div>
         <div className="flex items-center gap-2 mb-4">
           <img src={logo} alt="Skyexchfast - Skyexchfast Login online cricket and casino platform" className="h-10 w-10" width={40} height={40} />
-          <span className="text-xl font-extrabold text-gradient-gold">SKYEXCHANGE</span>
+          <span className="text-xl font-extrabold text-gradient-gold">SKYEXCHID</span>
         </div>
         <p className="text-sm text-muted-foreground">Skyexchfast (Skyexchfast Login) — India's most trusted online cricket & casino platform. Play live cricket betting in ₹, win big with fast withdrawal & 24x7 support.</p>
       </div>
@@ -22,7 +21,7 @@ export const Footer = () => (
           <ul className="space-y-2 text-sm text-muted-foreground">
             {s.l.map((x) => (
               <li key={x}>
-                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-primary">{x}</a>
+                <span className="hover:text-primary">{x}</span>
               </li>
             ))}
           </ul>

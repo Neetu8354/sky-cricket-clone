@@ -113,7 +113,7 @@ export const Header = () => {
           </span>
           <span className="flex flex-col leading-none">
             <span className="text-lg md:text-2xl font-extrabold tracking-tight text-gradient-gold">
-              SKYEXCHANGE
+              SKYEXCHID
             </span>
             <span className="hidden md:inline text-[10px] font-medium tracking-[0.18em] text-muted-foreground uppercase mt-0.5">
               Cricket • Casino • Live
@@ -148,12 +148,6 @@ export const Header = () => {
               Login
             </a>
           </Button>
-          <WhatsAppButton
-            variant="default"
-            className="bg-gradient-gold text-primary-foreground hover:opacity-90 shadow-gold"
-          >
-            Get Your Online ID
-          </WhatsAppButton>
         </div>
 
         <button
@@ -196,9 +190,6 @@ export const Header = () => {
                   Login to Skyexchfast
                 </a>
               </Button>
-              <WhatsAppButton className="bg-gradient-gold text-primary-foreground w-full">
-                Get Your Online ID
-              </WhatsAppButton>
             </div>
           </div>
         </div>
