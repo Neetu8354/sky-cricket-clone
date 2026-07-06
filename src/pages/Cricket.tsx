@@ -4,7 +4,6 @@ import { Trophy, Activity, Clock, TrendingUp } from "lucide-react";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
-import { WhatsAppButton } from "@/components/site/WhatsAppButton";
 import { applySeo } from "@/lib/seo";
 import cricket from "@/assets/sport-cricket.jpg";
 import hero from "@/assets/hero-cricket.jpg";
@@ -84,9 +83,6 @@ const Cricket = () => {
               Skyexchfast gives you the fastest live cricket odds in India, lowest commission, and instant ₹ withdrawals.
               Bet on every IPL 2026 match, T20 World Cup, ODI series and Test cricket — all from your phone.
             </p>
-            <WhatsAppButton size="lg" className="bg-gradient-gold text-primary-foreground shadow-gold h-12 px-8">
-              Get Your Cricket ID
-            </WhatsAppButton>
           </div>
         </div>
       </section>
@@ -152,9 +148,6 @@ const Cricket = () => {
           <p className="text-sm md:text-base text-muted-foreground mb-6">
             Get your Skyexchfast cricket ID in 60 seconds on WhatsApp. Play in ₹, win in ₹.
           </p>
-          <WhatsAppButton className="bg-gradient-gold text-primary-foreground shadow-gold">
-            Get Your Cricket ID Now
-          </WhatsAppButton>
         </div>
       </section>
 

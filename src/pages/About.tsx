@@ -4,7 +4,6 @@ import { ShieldCheck, Trophy, Users, Wallet, Headphones, Zap } from "lucide-reac
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
-import { WhatsAppButton } from "@/components/site/WhatsAppButton";
 import { applySeo } from "@/lib/seo";
 
 const About = () => {
@@ -117,9 +116,6 @@ const About = () => {
           <p className="text-sm md:text-base text-muted-foreground mb-6">
             Get your free Skyexchfast ID on WhatsApp in under 60 seconds.
           </p>
-          <WhatsAppButton className="bg-gradient-gold text-primary-foreground shadow-gold">
-            Get Your Online ID
-          </WhatsAppButton>
         </div>
       </section>
 
