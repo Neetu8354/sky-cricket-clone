@@ -11,12 +11,12 @@ import hero from "@/assets/hero-cricket.jpg";
 const Cricket = () => {
   useEffect(() => {
     applySeo({
-      title: "Live Cricket Betting India 2026 | IPL, T20, ODI Markets | Skyexchfast",
+      title: "SkyExchFast Cricket | Live Cricket Updates, Matches & Cricket Experience",
       description:
-        "Bet on live cricket online in India — IPL 2026, T20 World Cup, ODI & Test markets on Skyexchfast. Lowest commission, fastest odds, instant ₹ withdrawals.",
+        "Follow SkyExchFast Cricket for live match updates, cricket schedules, team information, player statistics, IPL coverage, and a complete cricket entertainment experience.",
       canonical: "https://skyexchfast.live/cricket",
       keywords:
-        "live cricket betting tips online, ipl 2026, how to bet on live cricket matches online, sports betting platform online, online sports gaming platform, skyexchfast online platform",
+        "SkyExchFast Cricket, SkyExchFast cricket live, cricket updates, live cricket score, IPL cricket, cricket matches, cricket platform, cricket news, cricket statistics",
       jsonLd: [
         {
           "@context": "https://schema.org",
@@ -75,13 +75,12 @@ const Cricket = () => {
           </nav>
 
           <div className="max-w-3xl">
-            <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-3">Live Cricket Betting India</div>
+            <div className="text-xs font-semibold tracking-widest text-primary uppercase mb-3">Cricket Updates & Insights</div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-5">
-              Bet on <span className="text-gradient-gold">live cricket</span> in ₹ — IPL, T20, ODI & more
+              Live Cricket in India – Follow <span className="text-gradient-gold">IPL, T20, ODI & Test Cricket</span> on SkyExchFast
             </h1>
             <p className="text-muted-foreground text-base md:text-lg mb-7 max-w-2xl">
-              Skyexchfast gives you the fastest live cricket odds in India, lowest commission, and instant ₹ withdrawals.
-              Bet on every IPL 2026 match, T20 World Cup, ODI series and Test cricket — all from your phone.
+              Cricket is one of the most followed sports in the world, connecting millions of fans through unforgettable moments, exciting tournaments, and legendary performances. SkyExchFast Cricket provides a modern cricket platform experience where users can stay connected with match schedules, team information, player statistics, live updates, and detailed cricket insights.
             </p>
           </div>
         </div>
@@ -119,6 +118,71 @@ const Cricket = () => {
       </section>
 
       <section className="container py-14">
+        <div className="prose prose-invert max-w-4xl mx-auto mb-16">
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-6">What Makes SkyExchFast Cricket Different?</h2>
+          <p className="text-muted-foreground mb-6">
+            A great cricket platform should provide more than just match information. Cricket fans want quick updates, accurate details, simple navigation, and access to important statistics. SkyExchFast focuses on providing a smooth cricket experience with features including:
+          </p>
+          <ul className="grid sm:grid-cols-2 gap-4 mb-8">
+            {[
+              "Latest cricket match updates",
+              "Tournament information",
+              "Team profiles",
+              "Player statistics",
+              "Match schedules",
+              "Live score tracking",
+              "Cricket analysis tools",
+              "Mobile-friendly access"
+            ].map((feature) => (
+              <li key={feature} className="text-muted-foreground">✓ {feature}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-6 mb-16">
+          <div className="p-6 rounded-2xl bg-gradient-card border border-border">
+            <h3 className="text-xl font-extrabold mb-3 text-gradient-gold">Test Cricket</h3>
+            <p className="text-sm text-muted-foreground mb-4">
+              Test cricket is the traditional format of the game and tests a team's patience, strategy, and technical ability over multiple days.
+            </p>
+            <ul className="text-xs text-muted-foreground space-y-2">
+              <li>• Pitch conditions</li>
+              <li>• Batting technique</li>
+              <li>• Bowling endurance</li>
+              <li>• Session performance</li>
+              <li>• Weather conditions</li>
+            </ul>
+          </div>
+
+          <div className="p-6 rounded-2xl bg-gradient-card border border-border">
+            <h3 className="text-xl font-extrabold mb-3 text-gradient-gold">ODI Cricket</h3>
+            <p className="text-sm text-muted-foreground mb-4">
+              ODI cricket combines strategy with attacking gameplay. Each team receives a limited number of overs, making every partnership important.
+            </p>
+            <ul className="text-xs text-muted-foreground space-y-2">
+              <li>• Powerplay performance</li>
+              <li>• Middle-over partnerships</li>
+              <li>• Death-over bowling</li>
+              <li>• Run rate management</li>
+            </ul>
+          </div>
+
+          <div className="p-6 rounded-2xl bg-gradient-card border border-border">
+            <h3 className="text-xl font-extrabold mb-3 text-gradient-gold">T20 Cricket</h3>
+            <p className="text-sm text-muted-foreground mb-4">
+              T20 cricket is the fastest and most entertaining format. With only 20 overs per innings, teams focus on aggressive batting and powerful bowling.
+            </p>
+            <ul className="text-xs text-muted-foreground space-y-2">
+              <li>• Opening partnerships</li>
+              <li>• Boundary-hitting ability</li>
+              <li>• Bowling variations</li>
+              <li>• Match momentum</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="container py-14">
         <h2 className="text-3xl md:text-4xl font-extrabold mb-8">Leagues you can bet on</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {leagues.map((g) => (
@@ -148,6 +212,29 @@ const Cricket = () => {
           <p className="text-sm md:text-base text-muted-foreground mb-6">
             Get your Skyexchfast cricket ID in 60 seconds on WhatsApp. Play in ₹, win in ₹.
           </p>
+        </div>
+      </section>
+
+      <section className="container py-14">
+        <h2 className="text-3xl md:text-4xl font-extrabold mb-8">Frequently Asked Questions About SkyExchFast Cricket</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          {[
+            { q: "What is SkyExchFast Cricket?", a: "SkyExchFast Cricket is a cricket-focused platform designed to provide fans with match information, updates, statistics, and cricket-related features. It helps users stay connected with their favourite tournaments and teams." },
+            { q: "What cricket tournaments can I follow?", a: "Users can follow popular cricket events including international matches, franchise leagues, T20 competitions, ODI tournaments, and domestic cricket events depending on availability." },
+            { q: "Does SkyExchFast provide live cricket updates?", a: "Yes, the platform focuses on providing updated match information including scores, match progress, player performances, and important game moments." },
+            { q: "Why are cricket statistics important?", a: "Cricket statistics help fans understand player and team performance. Information such as batting averages, strike rates, and bowling records provides deeper knowledge about the game." },
+            { q: "Can I access SkyExchFast Cricket on mobile?", a: "Yes, SkyExchFast is designed to provide a convenient experience across smartphones, tablets, and desktop devices." },
+            { q: "Why is pitch condition important?", a: "Pitch conditions influence how players perform. Some pitches support fast bowlers, while others help spinners or aggressive batters." },
+            { q: "How does weather affect cricket matches?", a: "Weather can impact batting conditions, bowling performance, match duration, and overall gameplay. Rain, humidity, and moisture can change match strategies." },
+            { q: "What makes T20 cricket different?", a: "T20 cricket is shorter and faster, requiring teams to score quickly and make aggressive tactical decisions within limited overs." },
+            { q: "Why is player form important?", a: "Recent player form shows current confidence and performance levels. A player performing consistently may have a greater impact on upcoming matches." },
+            { q: "Why choose SkyExchFast Cricket?", a: "SkyExchFast Cricket offers a complete cricket experience with match information, statistics, updates, and easy access for cricket fans who want to stay connected with the game." },
+          ].map((faq, idx) => (
+            <div key={idx} className="p-6 rounded-2xl bg-gradient-card border border-border">
+              <h3 className="font-bold text-lg mb-3 text-gradient-gold">{faq.q}</h3>
+              <p className="text-sm text-muted-foreground">{faq.a}</p>
+            </div>
+          ))}
         </div>
       </section>
 
