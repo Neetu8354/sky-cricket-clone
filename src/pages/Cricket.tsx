@@ -63,7 +63,7 @@ const Cricket = () => {
 
       <section className="relative overflow-hidden border-b border-border">
         <div className="absolute inset-0">
-          <img src={hero} alt="Live cricket betting on skyexchfast.live - bet on IPL T20 ODI online" className="w-full h-full object-cover opacity-30" />
+          <img src={hero} alt="Live cricket betting on skyexchfast.live - bet on IPL T20 ODI online" title="Play online cricket betting on Skyexchfast — get your free cricket ID" className="w-full h-full object-cover opacity-30" />
           <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background" />
         </div>
 
@@ -188,7 +188,7 @@ const Cricket = () => {
           {leagues.map((g) => (
             <div key={g.t} className="relative rounded-2xl overflow-hidden border border-border bg-gradient-card group">
               <div className="aspect-square overflow-hidden">
-                <img src={g.img} alt={`Bet on ${g.t} live online at skyexchfast.live`} loading="lazy" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                <img src={g.img} alt={`Bet on ${g.t} live online at skyexchfast.live`} title={`${g.t} — bet live on ${g.t} at Skyexchfast`} loading="lazy" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               </div>
               {g.tag && (
                 <span className="absolute top-3 left-3 px-2 py-1 rounded-md text-[10px] font-bold bg-destructive text-destructive-foreground">

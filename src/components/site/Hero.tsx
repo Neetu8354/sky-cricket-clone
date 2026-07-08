@@ -10,6 +10,7 @@ export const Hero = () => {
         <img
           src={hero}
           alt="Play online cricket betting on skyexchfast.live - get your free cricket ID instantly"
+          title="Play online cricket betting on Skyexchfast — get your free cricket ID"
           className="w-full h-full object-cover"
           width={1920}
           height={1080}
@@ -40,6 +41,7 @@ export const Hero = () => {
                 <img
                   src={hero}
                   alt="Get your ID and play live cricket now at skyexchfast.live"
+                  title="Get your ID and play live cricket now at Skyexchfast"
                   className="w-full h-full object-cover object-top"
                   loading="eager"
                 />

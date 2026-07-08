@@ -9,6 +9,7 @@ export const BlogHeader = () => (
         <img
           src={logo}
           alt="Skyexchfast official logo - online cricket and casino platform"
+          title="Skyexchfast official logo — online cricket & casino platform"
           width={42}
           height={42}
           className="h-10 w-10 object-contain"

@@ -106,6 +106,7 @@ export const Header = () => {
             <img
               src={logo}
               alt="Skyexchfast official logo - online cricket and casino platform"
+              title="Skyexchfast official logo — online cricket & casino platform"
               width={42}
               height={42}
               className="relative h-10 w-10 object-contain transition-transform duration-300 group-hover:scale-105"

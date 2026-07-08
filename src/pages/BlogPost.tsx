@@ -81,6 +81,7 @@ const BlogPost = () => {
           <img
             src={post.image}
             alt={post.imageAlt}
+            title={post.title}
             className="w-full h-auto object-cover"
             loading="eager"
           />
