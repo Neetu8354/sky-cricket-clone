@@ -12,7 +12,7 @@ const About = () => {
       title: "About Skyexchfast | India's Trusted Online Sports Gaming Platform 2026",
       description:
         "About Skyexchfast (Skyexchfast Login) — India's leading online sports gaming platform since 2017. 10L+ players, 1000+ games, instant ₹ withdrawals, 24x7 WhatsApp support.",
-      canonical: "https://skyexchfast.live/about",
+      canonical: "https://www.skyexchfast.live/about",
       keywords:
         "about skyexchfast, sky exchange login, online sports gaming platform, sports betting platform online, skyexchfast online platform",
       jsonLd: [
@@ -20,7 +20,7 @@ const About = () => {
           "@context": "https://schema.org",
           "@type": "AboutPage",
           name: "About Skyexchfast",
-          url: "https://skyexchfast.live/about",
+          url: "https://www.skyexchfast.live/about",
           description:
             "Learn about Skyexchfast — India's trusted online cricket and casino gaming platform.",
         },
@@ -28,8 +28,8 @@ const About = () => {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchfast.live/" },
-            { "@type": "ListItem", position: 2, name: "About", item: "https://skyexchfast.live/about" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.skyexchfast.live/" },
+            { "@type": "ListItem", position: 2, name: "About", item: "https://www.skyexchfast.live/about" },
           ],
         },
       ],

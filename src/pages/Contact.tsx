@@ -13,7 +13,7 @@ const Contact = () => {
       title: "Contact Skyexchfast | 24x7 WhatsApp Support for Skyexchfast Login",
       description:
         "Contact Skyexchfast 24x7 on WhatsApp for Skyexchfast Login help, ID creation, deposit & withdrawal support. Real human support, replies in under 60 seconds.",
-      canonical: "https://skyexchfast.live/contact",
+      canonical: "https://www.skyexchfast.live/contact",
       keywords:
         "contact skyexchfast, skyexchfast support, sky exchange login support, whatsapp cricket id, online betting website india",
       jsonLd: [
@@ -21,14 +21,14 @@ const Contact = () => {
           "@context": "https://schema.org",
           "@type": "ContactPage",
           name: "Contact Skyexchfast",
-          url: "https://skyexchfast.live/contact",
+          url: "https://www.skyexchfast.live/contact",
           description: "Get 24x7 support for Skyexchfast login, deposits, withdrawals and account help.",
         },
         {
           "@context": "https://schema.org",
           "@type": "Organization",
           name: "Skyexchfast",
-          url: "https://skyexchfast.live/",
+          url: "https://www.skyexchfast.live/",
           logo: "https://skyexchfast.live/favicon.png",
           contactPoint: [
             {
@@ -45,8 +45,8 @@ const Contact = () => {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchfast.live/" },
-            { "@type": "ListItem", position: 2, name: "Contact", item: "https://skyexchfast.live/contact" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.skyexchfast.live/" },
+            { "@type": "ListItem", position: 2, name: "Contact", item: "https://www.skyexchfast.live/contact" },
           ],
         },
       ],

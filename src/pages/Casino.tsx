@@ -17,7 +17,7 @@ const Casino = () => {
       title: "SkyExchFast Casino | Premium Online Casino Games & Entertainment",
       description:
         "Explore SkyExchFast Casino for a premium online gaming experience with exciting casino games, live casino options, smooth navigation, and modern entertainment features.",
-      canonical: "https://skyexchfast.live/casino",
+      canonical: "https://www.skyexchfast.live/casino",
       keywords:
         "SkyExchFast Casino, SkyExchFast casino games, online casino, live casino, casino gaming platform, casino entertainment, SkyExchFast games, online gaming experience",
       jsonLd: [
@@ -25,15 +25,15 @@ const Casino = () => {
           "@context": "https://schema.org",
           "@type": "WebPage",
           name: "Live Casino on Skyexchfast",
-          url: "https://skyexchfast.live/casino",
+          url: "https://www.skyexchfast.live/casino",
           description: "1000+ live casino games on the Skyexchfast online platform — playable in INR.",
         },
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchfast.live/" },
-            { "@type": "ListItem", position: 2, name: "Casino", item: "https://skyexchfast.live/casino" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.skyexchfast.live/" },
+            { "@type": "ListItem", position: 2, name: "Casino", item: "https://www.skyexchfast.live/casino" },
           ],
         },
       ],

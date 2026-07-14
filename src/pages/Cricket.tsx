@@ -14,7 +14,7 @@ const Cricket = () => {
       title: "SkyExchFast Cricket | Live Cricket Updates, Matches & Cricket Experience",
       description:
         "Follow SkyExchFast Cricket for live match updates, cricket schedules, team information, player statistics, IPL coverage, and a complete cricket entertainment experience.",
-      canonical: "https://skyexchfast.live/cricket",
+      canonical: "https://www.skyexchfast.live/cricket",
       keywords:
         "SkyExchFast Cricket, SkyExchFast cricket live, cricket updates, live cricket score, IPL cricket, cricket matches, cricket platform, cricket news, cricket statistics",
       jsonLd: [
@@ -22,15 +22,15 @@ const Cricket = () => {
           "@context": "https://schema.org",
           "@type": "WebPage",
           name: "Live Cricket Betting on Skyexchfast",
-          url: "https://skyexchfast.live/cricket",
+          url: "https://www.skyexchfast.live/cricket",
           description: "Live cricket betting markets on Skyexchfast — IPL, T20 World Cup, ODI, Test cricket.",
         },
         {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://skyexchfast.live/" },
-            { "@type": "ListItem", position: 2, name: "Cricket", item: "https://skyexchfast.live/cricket" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://www.skyexchfast.live/" },
+            { "@type": "ListItem", position: 2, name: "Cricket", item: "https://www.skyexchfast.live/cricket" },
           ],
         },
       ],
